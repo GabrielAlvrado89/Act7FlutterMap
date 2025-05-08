@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:Alvaradorutas/pagina_uno.dart';
-import 'package:Alvaradorutas/change_notifier.dart';
-import 'package:Alvaradorutas/constrained_box.dart';
-import 'package:Alvaradorutas/cupertino_search_text_field.dart';
-import 'package:Alvaradorutas/fractionally_sizedbox.dart';
-import 'package:Alvaradorutas/future_builder.dart';
-import 'package:Alvaradorutas/layout_builder.dart';
-import 'package:Alvaradorutas/orientation_builder.dart';
-import 'package:Alvaradorutas/stateful_builder.dart';
-import 'package:Alvaradorutas/stream_builder.dart';
-import 'package:Alvaradorutas/platform_detect.dart';
+import 'package:Alvaradorutas/pantalla2.dart';
+import 'package:Alvaradorutas/pantalla3.dart';
+import 'package:Alvaradorutas/pantalla4.dart';
+import 'package:Alvaradorutas/pantalla5.dart';
+import 'package:Alvaradorutas/pantalla6.dart';
+import 'package:Alvaradorutas/pantalla7.dart';
 
 void main() => runApp(MiRutasApp());
 
@@ -32,10 +28,6 @@ class MiRutasApp extends StatelessWidget {
         '/pantalla5': (context) => const QuintaPantalla(),
         '/pantalla6': (context) => const SextaPantalla(),
         '/pantalla7': (context) => const SeptimaPantalla(),
-        '/pantalla8': (context) => const OctavaPantalla(),
-        '/pantalla9': (context) => const NovenaPantalla(),
-        '/pantalla10': (context) => const DecimaPantalla(),
-        '/pantalla11': (context) => const DecimaPrimeraPantalla(),
       },
     );
   }

@@ -85,50 +85,6 @@ class PrimerPantalla extends StatelessWidget {
               child: const Text('Septima Pantalla'),
             ),
           ),
-          SizedBox(
-            height: 30,
-          ),
-          Center(
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/pantalla8');
-              },
-              child: const Text('Octava Pantalla'),
-            ),
-          ),
-          SizedBox(
-            height: 30,
-          ),
-          Center(
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/pantalla9');
-              },
-              child: const Text('Novena Pantalla'),
-            ),
-          ),
-          SizedBox(
-            height: 30,
-          ),
-          Center(
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/pantalla10');
-              },
-              child: const Text('Decima Pantalla'),
-            ),
-          ),
-          SizedBox(
-            height: 30,
-          ),
-          Center(
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/pantalla11');
-              },
-              child: const Text('DecimaPrimer Pantalla'),
-            ),
-          ),
         ],
       ),
     );
